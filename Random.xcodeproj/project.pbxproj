@@ -13,6 +13,7 @@
 		918EA06C176220F5002336E2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 918EA06A176220F5002336E2 /* Credits.rtf */; };
 		918EA06F176220F5002336E2 /* RandomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EA06E176220F5002336E2 /* RandomAppDelegate.m */; };
 		918EA072176220F5002336E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918EA070176220F5002336E2 /* MainMenu.xib */; };
+		918EA07A17622604002336E2 /* RandomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EA07917622604002336E2 /* RandomController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		918EA05E176220F5002336E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		918EA05F176220F5002336E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		918EA060176220F5002336E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		918EA063176220F5002336E2 /* Random-Info.plist */ = {isa = PBXFileReference; path = "Random-Info.plist"; sourceTree = "<group>"; };
+		918EA063176220F5002336E2 /* Random-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Random-Info.plist"; sourceTree = "<group>"; };
 		918EA065176220F5002336E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		918EA067176220F5002336E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		918EA069176220F5002336E2 /* Random-Prefix.pch */ = {isa = PBXFileReference; path = "Random-Prefix.pch"; sourceTree = "<group>"; };
+		918EA069176220F5002336E2 /* Random-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Random-Prefix.pch"; sourceTree = "<group>"; };
 		918EA06B176220F5002336E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		918EA06D176220F5002336E2 /* RandomAppDelegate.h */ = {isa = PBXFileReference; path = RandomAppDelegate.h; sourceTree = "<group>"; };
+		918EA06D176220F5002336E2 /* RandomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomAppDelegate.h; sourceTree = "<group>"; };
 		918EA06E176220F5002336E2 /* RandomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomAppDelegate.m; sourceTree = "<group>"; };
 		918EA071176220F5002336E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		918EA07817622604002336E2 /* RandomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomController.h; sourceTree = "<group>"; };
+		918EA07917622604002336E2 /* RandomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				918EA06D176220F5002336E2 /* RandomAppDelegate.h */,
 				918EA06E176220F5002336E2 /* RandomAppDelegate.m */,
 				918EA070176220F5002336E2 /* MainMenu.xib */,
+				918EA07817622604002336E2 /* RandomController.h */,
+				918EA07917622604002336E2 /* RandomController.m */,
 				918EA062176220F5002336E2 /* Supporting Files */,
 			);
 			path = Random;
@@ -164,6 +169,7 @@
 			files = (
 				918EA068176220F5002336E2 /* main.m in Sources */,
 				918EA06F176220F5002336E2 /* RandomAppDelegate.m in Sources */,
+				918EA07A17622604002336E2 /* RandomController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
